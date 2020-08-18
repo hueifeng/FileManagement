@@ -60,6 +60,6 @@ steps:
     containerRegistry: $(DockerRegistry)
     repository: $(repository)
     command: 'buildAndPush'
-    Dockerfile: 'host/EasyAbp.PrivateMessaging.Web.Unified/Dockerfile'
+    Dockerfile: 'host/EasyAbp.FileManagement.Web.Unified/Dockerfile'
     buildContext: .
     tags: 'latest'
